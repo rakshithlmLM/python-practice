@@ -40,8 +40,8 @@ while True:
             print("Enter Vaild input next time!! ")
             break 
 print("===========Score===============") 
-print(f"You wins {user_win} times")
-print(f"computer wins {computer_win} times")
+print(f"You won {user_win} times")
+print(f"computer won {computer_win} times")
 print(f"draw {draw} times")
 print("===========Final Results=========")
 if user_win > computer_win:
@@ -49,7 +49,7 @@ if user_win > computer_win:
 elif computer_win > user_win:
      print("Computer has won the game!\nBetter Luck Next Time!")
 else:
-     print("Overall game was a draw!")
+     print("Overall game was a draw!!")
 
          
 
